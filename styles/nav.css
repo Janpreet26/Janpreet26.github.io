@@ -10,20 +10,22 @@ body {
 body * {
   font-family: Arial, Helvetica, sans-serif; }
 
+.logo-bar {
+  margin: 15px; }
+  .logo-bar .logo {
+    width: 10vw; }
+  .logo-bar .logo-text {
+    width: 75vw; }
+
 .navigation-container {
   display: flex;
   background-color: #4395E9;
   flex-direction: row;
   height: 65px; }
-  .navigation-container .logo {
-    background-image: url("/images/logo.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 65px;
-    width: 65px; }
   .navigation-container .main-menu {
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    margin: 0 auto; }
     .navigation-container .main-menu .main-menu-link {
       position: relative;
       display: inline-block;

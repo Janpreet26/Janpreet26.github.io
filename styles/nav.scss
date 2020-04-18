@@ -3,23 +3,27 @@
 $nav-height: 65px;
 $sub-menu-color: #f1f1f1;
 
+.logo-bar {
+  margin: 15px;
+  .logo {
+    width: 10vw;
+  }
+
+  .logo-text {
+    width: 75vw;
+  }
+}
+
 .navigation-container {
   display: flex;
   background-color: $nav-color;
   flex-direction: row;
   height: $nav-height;
 
-  .logo {
-    background-image: url('/images/logo.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: $nav-height;
-    width: $nav-height;
-  }
-
   .main-menu {
     display: flex;
     flex-direction: row;
+    margin: 0 auto;
     .main-menu-link {
       position: relative;
       display: inline-block;
